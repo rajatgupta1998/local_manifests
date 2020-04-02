@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-<remote  name="rajatgupta1998"
-         fetch="https://github.com/rajatgupta1998" />
+<remote name="rajatgupta1998"
+        fetch="https://github.com/rajatgupta1998" />
+
+<remote name="lineage"
+        fetch="https://github.com/LineageOS" />
 
 <!-- Moto G4 Plus (athene) projects -->
 <project name="android_device_motorola_athene" path="device/motorola/athene" remote="rajatgupta1998" revision="lineage-15.1-arm" />
 <project name="android_kernel_motorola_msm8952" path="kernel/motorola/msm8952" remote="rajatgupta1998" revision="lineage-15.1-new" />
 <project name="vendor_motorola_athene" path="vendor/motorola/athene" remote="rajatgupta1998" revision="oreo-8.1" />
+
+<!-- Dependencies -->
+<project name="android_external_bson" path="external/bson" remote="lineage" revision="lineage-15.1"/>
+<project name="android_external_stlport" path="external/stlport" remote="lineage" revision="lineage-15.1" />
+<project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" revision="lineage-15.1" />
 
 </manifest>
