@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<remote name="rajatgupta1998"
+        fetch="https://github.com/rajatgupta1998" />
+
+<remote name="lineage"
+        fetch="https://github.com/LineageOS" />
+
+<remote name="muppets"
+        fetch="https://github.com/TheMuppets" />
+
+<!-- Dependencies -->
+<project name="android_device_motorola_river" path="device/motorola/river" remote="lineage" revision="lineage-18.1"/>
+<project name="android_device_motorola_sdm632-common" path="device/motorola/sdm632-common" remote="lineage" revision="lineage-18.1"/>
+<project name="android_kernel_motorola_sdm632" path="kernel/motorola/sdm632" remote="lineage" revision="lineage-18.1"/>
+<project name="android_system_qcom" path="system/qcom" remote="lineage" revision="lineage-18.1"/>
+<project name="android_hardware_motorola" path="hardware/motorola" remote="lineage" revision="lineage-18.1"/>
+<project name="proprietary_vendor_motorola" path="vendor/motorola" remote="muppets" revision="lineage-18.1"/>
+
+</manifest>

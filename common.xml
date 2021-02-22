@@ -9,6 +9,6 @@
         fetch="https://github.com/LineageOS" />
 
 <!-- Dependencies -->
-<project name="android_external_bson" path="external/bson" remote="lineage" revision="lineage-17.1"/>
+<project name="android_external_bson" path="external/bson" remote="lineage" revision="lineage-18.1"/>
 
 </manifest>
